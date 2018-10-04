@@ -24,8 +24,15 @@
             "type": "vcs",
             "url": "https://github.com/igorw/monolog"
         }
-    ]
-    
+    ],
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iha\\Contact\\ContactServiceProvider"
+            ]          
+        }
+    }
         
     
 
