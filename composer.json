@@ -1,0 +1,32 @@
+{
+    "name": "iha/contact",
+    "description": "Package to send messages to the manager and saved in the database.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iha",
+            "email": "iha2007hachi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "dev-bugfix"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iha\\contact\\": "src/"
+        }
+    },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/igorw/monolog"
+        }
+    ]
+    
+        
+    
+
+}
