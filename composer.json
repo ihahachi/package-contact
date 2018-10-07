@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Iha\\contact\\": "src/"
+            "iha\\contact\\": "src/"
         }
     },
 
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Iha\\Contact\\ContactServiceProvider"
+                "iha\\Contact\\ContactServiceProvider"
             ]          
         }
     }
