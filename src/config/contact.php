@@ -3,7 +3,9 @@
 return 
 [
 
-    'send_mail_to' => 'iha2007hachi@yahoo.com',
+    'send_mail_to'  => 'sendTo@exemple.com',
+
+    'externe_email' => TRUE,
 
 
 ];
