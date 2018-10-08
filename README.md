@@ -51,16 +51,23 @@ Run this command for generate database :
 ```
 $ php artisan migrate
 ```
-
 #### The default table name : contact
 
 
+
+### Run
 
 Finally, serve the application.
 
 ```
 $ php artisan serve
 ```
+To serve the application, you can use `php artisan serve`, then open [http://localhost:8000](http://localhost:8000) 
+from your browser. To access the contact page, hit the link [http://localhost:8000/contact](http://localhost:8000/contact) 
+from your browser.
+
+
+
 
 
 
