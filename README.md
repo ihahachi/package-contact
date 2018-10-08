@@ -44,6 +44,27 @@ You see the composer.json like this :
 ```
 
 
+
+### Database
+Run this command for generate database :
+
+```
+$ php artisan migrate
+```
+
+#### The default table name : contact
+
+
+
+Finally, serve the application.
+
+```
+$ php artisan serve
+```
+
+
+
+
 ## Configuration
 
 The defaults configuration settings are set in `config/contact.php`.
