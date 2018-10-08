@@ -1,4 +1,4 @@
-# Contact Us From Package Laravel Framework
+# Contact Package
 
 
 <p align="center"> 
@@ -10,6 +10,40 @@
 
 
 
+
 ## About Package
 
 Package to send messages to the manager and saved in the database.
+
+
+## Installation
+
+### With Composer
+
+#### Compatible with Laravel 5.x:
+
+```
+$ composer require iha/contact
+```
+
+After Downloading package, Run this command :
+```
+$ php artisan vendor:publish
+```
+
+
+
+
+You see the composer.json like this :
+```json
+{
+    "require": {
+        "iha/contact": "^1.0"
+    }
+}
+```
+
+The default route :
+```
+http://localhost/contact
+```
