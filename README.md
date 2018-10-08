@@ -26,7 +26,7 @@ Package to send messages to the manager and saved in the database.
 $ composer require iha/contact
 ```
 
-After Downloading package, Run this command :
+After downloading package, Run this command :
 ```
 $ php artisan vendor:publish
 ```
@@ -43,7 +43,27 @@ You see the composer.json like this :
 }
 ```
 
-The default route :
+
+## Configuration
+
+The defaults configuration settings are set in `config/contact.php`.
+
 ```
-http://localhost/contact
+<?php
+return 
+[
+    'send_mail_to'  => 'sendTo@exemple.com',
+
+    'externe_email' => 'TRUE',
+];
 ```
+
+
+the default views are set in `resources/views/contact/`
+
+
+
+
+## License
+
+This Contact Package Wrapper for Laravel is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
