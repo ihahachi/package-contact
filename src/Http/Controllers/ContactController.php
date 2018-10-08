@@ -23,7 +23,7 @@ class ContactController extends Controller
 
     public function send(Request $request)
     {
-       if (config('contact.externe_email')=='TURE') {
+       if (config('contact.externe_email')=='TRUE') {
         Mail::to(config('contact.send_mail_to'))->send(new ContactEmail(
             $request->message,
             $request->name
